@@ -57,10 +57,7 @@ export const metadata = {
       "Building scalable web and mobile applications using Next.js, React Native, and backend technologies.",
     images: ["/images/og-image.png"],
   },
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
-  },
+  
 };
 
 
