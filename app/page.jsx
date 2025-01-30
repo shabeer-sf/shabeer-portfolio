@@ -1,8 +1,7 @@
-import WhatIdo from "@/components/WhatIdo";
+import ContactForm from "@/components/ContactForm";
 import HeroPage from "@/components/HeroPage";
 import Navbar from "@/components/Navbar";
-import Link from "next/link";
-import React from "react";
+import WhatIdo from "@/components/WhatIdo";
 
 const MainPage = () => {
   return (
@@ -10,6 +9,7 @@ const MainPage = () => {
       <Navbar />
       <HeroPage />
       <WhatIdo />
+      <ContactForm />
     </main>
   );
 };
