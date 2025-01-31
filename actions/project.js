@@ -1,4 +1,5 @@
 "use server"
+import { db } from "@/lib/prisma";
 
 export async function getProjects2() {
     // console.log("search",search)
