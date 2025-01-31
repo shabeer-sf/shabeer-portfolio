@@ -1,6 +1,7 @@
 import ContactForm from "@/components/ContactForm";
 import HeroPage from "@/components/HeroPage";
 import Navbar from "@/components/Navbar";
+import Timeline from "@/components/TimeLine";
 import WhatIdo from "@/components/WhatIdo";
 
 const MainPage = () => {
@@ -10,6 +11,7 @@ const MainPage = () => {
       <HeroPage />
       <WhatIdo />
       <ContactForm />
+      <Timeline />
     </main>
   );
 };
